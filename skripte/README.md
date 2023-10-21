@@ -1,0 +1,2 @@
+- Prvi termin (TODO)
+- [Drugi termin](./02.md)
