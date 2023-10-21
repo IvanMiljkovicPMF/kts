@@ -1,5 +1,3 @@
-# Kvalitet i testiranje softvera
-
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 Ovaj kurs je deo projekta [IMI Open Educational Resources](https://imioer.github.io).
