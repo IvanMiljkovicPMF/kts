@@ -20,15 +20,6 @@ layout: false
     ]
 ]
 
---
-    .pure-u-12-24[
-        Nastavak desnog
-    ]
-
---
-    .pure-u-12-14[
-        .pure-img[![](https://1-2-3.github.io/remark-it/static/himg222.jpg)]
-    ]
 
 ---
 
