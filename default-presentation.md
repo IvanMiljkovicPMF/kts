@@ -4,20 +4,47 @@ title: Default Presentation
 permalink: /default-presentation/
 ---
 
-# My Awesome Presentation
+layout: true
+background-image: background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px;
 
 ---
 
-# Agenda
+class: center, middle
+# Test
 
-1. Introduction
-2. Deep-dive
-3. ...
+---
+class: center
 
-[NOTE]: Note that you need active internet connection to access remark.js script file
+.left-column[
+  Levi deo
+]
+.right-column[
+  Desni deo
+]
+--
+.right-column[
+  Nastavak desnog
+]
+--
+.right-column[
+  ![](https://avatars.githubusercontent.com/u/106514153?s=48&v=4)
+]
 
 ---
 
-# Introduction
+# Slajd 2
 
-Hello world!
+* jedan
+
+--
+* dva
+
+--
+* tri
+
+--
+* cetri
