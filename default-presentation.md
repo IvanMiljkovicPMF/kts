@@ -12,23 +12,23 @@ layout: false
 ---
 
 .pure-g[
-    .pure-u-12-24.font-xs.gutter-8[
+    .pure-u-12-24[
         Levi deo
     ]
-    .pure-u-12-24.font-xs.gutter-8[
+    .pure-u-12-24[
         Desni deo
     ]
 ]
 
 --
-    .pure-u-12-24.font-xs.gutter-8[
+    .pure-u-12-24[
         Nastavak desnog
     ]
 
 --
-.right-column[
-  ![](https://1-2-3.github.io/remark-it/static/himg222.jpg)
-]
+    .pure-u-12-14[
+        .pure-img[![](https://1-2-3.github.io/remark-it/static/himg222.jpg)]
+    ]
 
 ---
 
