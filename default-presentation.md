@@ -12,10 +12,10 @@ layout: false
 ---
 
 .pure-g[
-    .pure-u-12-24[
+    .pure-u-[
         Levi deo
     ]
-    .pure-u-12-24[
+    .pure-u[
         Desni deo
     ]
 ]
