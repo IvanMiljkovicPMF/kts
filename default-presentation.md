@@ -11,16 +11,20 @@ layout: false
 
 ---
 
-.left-column[
-  Levi deo
+.pure-g[
+    .pure-u-12-24.font-xs.gutter-8[
+        Levi deo
+    ]
+    .pure-u-12-24.font-xs.gutter-8[
+        Desni deo
+    ]
 ]
-.right-column[
-  Desni deo
-]
+
 --
-.right-column[
-  Nastavak desnog
-]
+    .pure-u-12-24.font-xs.gutter-8[
+        Nastavak desnog
+    ]
+
 --
 .right-column[
   ![](https://1-2-3.github.io/remark-it/static/himg222.jpg)
