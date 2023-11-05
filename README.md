@@ -6,6 +6,7 @@ Ovaj kurs je deo projekta [IMI Open Educational Resources](https://imioer.github
 
 - [_**Skripte**_](./skripte/README.md)
 - [_**Zadaci**_](./zadaci/README.md)
+- [_**Pitanja i odgovori**_](./pitanja_i_odgovori.md)
 - [_**Pomoćni kod**_](./pomocni-kod/README.md)
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
