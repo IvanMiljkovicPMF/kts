@@ -1,2 +1,3 @@
 - Prvi termin (TODO)
-- [Drugi termin](./02.md)
+- [Drugi termin: BDD, Equivalence Class Partitioning, Cucumber](./02.md)
+- [Treći termin: Boundary Value Analysis](./03.md)
