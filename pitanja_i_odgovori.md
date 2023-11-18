@@ -9,17 +9,28 @@ i nedoumice takođe možete ovde predložiti, sa odgovorom ili bez njega.
 Ideja je da se napravi list svih pitanja koja se jave pri učenju, bila ona jednostavna ili ne, kako bi se omogućilo lakše razumevanje gradiva i kako bi se otklonile sve prepreke koje se
 mogu pojaviti. Sva pitanja su dobrodošla.
 
+Sadržaj:
+- [TDD](#tdd)
+- [Black box](#black-box)
+  - [Cause-effect graph](#cause-effect-graph)
+- [White box](#white-box)
+  - [Coverage](#coverage)
+
 ## TDD
 
 > Koja je razlika između pristupa u kome prvo napišemo kod pa test i pristupa u kome prvo napišemo test pa kod?
 [Dodaj odgovor!](https://github.com/imioer/kts/edit/main/pitanja_i_odgovori.md)
 
-## Cause-effect graph
+## Black box
+
+### Cause-effect graph
 
 > Kako znamo da li trebamo da koristimo Exclusive ili One-and-Only-One ograničenje?
 [Dodaj odgovor!](https://github.com/imioer/kts/edit/main/pitanja_i_odgovori.md)
 
-## White box tehnike
+## White box
+
+### Coverage
 
 > Koja je razlika između Statement Coverage-a i Decision Coverage-a?
 [Dodaj odgovor!](https://github.com/imioer/kts/edit/main/pitanja_i_odgovori.md)
