@@ -38,6 +38,9 @@ Sadržaj:
 > Ako Decision Coverage obuhvata Condition Coverage, zašto onda postoje 2 tehnike, a ne jedna?
 [Dodaj odgovor!](https://github.com/imioer/kts/edit/main/pitanja_i_odgovori.md)
 
+> Da li se u Condition Coverage-u radi određuju kombinacije za svaku moguću vrednost uslova
+[Dodaj odgovor!](https://github.com/imioer/kts/edit/main/pitanja_i_odgovori.md)
+
 
 <!-- <details>
   <summary>
