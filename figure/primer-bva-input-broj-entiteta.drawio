@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" modified="2023-11-18T15:49:37.308Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="EJBj8k_PP10cAP6sexQ5" version="22.1.3" type="device">
+  <diagram name="Page-1" id="qqaZlvfAYo21mLsDR9zG">
+    <mxGraphModel dx="1834" dy="1240" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-3" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="iZV24EI_f0F_w6ac2HIL-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-112" y="257" as="sourcePoint" />
+            <mxPoint x="469" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-5" value="50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="iZV24EI_f0F_w6ac2HIL-3">
+          <mxGeometry x="0.8527" y="-2" relative="1" as="geometry">
+            <mxPoint x="-182" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-7" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" target="iZV24EI_f0F_w6ac2HIL-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-117" y="255" as="sourcePoint" />
+            <mxPoint x="526" y="257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-8" value="&lt;div&gt;1&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="iZV24EI_f0F_w6ac2HIL-7">
+          <mxGeometry x="-0.931" y="-1" relative="1" as="geometry">
+            <mxPoint x="188" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-6" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="69" y="245" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-11" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="iZV24EI_f0F_w6ac2HIL-6" target="iZV24EI_f0F_w6ac2HIL-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-77" y="255" as="sourcePoint" />
+            <mxPoint x="526" y="257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-10" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="263" y="245" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-40" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-2" y="-98" width="288" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-33" value="&lt;div&gt;Petar Petrovic A&lt;br&gt;&lt;/div&gt;&lt;div&gt;Jovan Jovanovic B&lt;/div&gt;&lt;div&gt;Marko Markovic C &lt;br&gt;&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" vertex="1" parent="iZV24EI_f0F_w6ac2HIL-40">
+          <mxGeometry x="88" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-39" value="" style="group" vertex="1" connectable="0" parent="iZV24EI_f0F_w6ac2HIL-40">
+          <mxGeometry y="73" width="100.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-36" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=16;size=0.2564102564102564;" vertex="1" parent="iZV24EI_f0F_w6ac2HIL-39">
+          <mxGeometry x="42" width="58.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-37" value="3" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="iZV24EI_f0F_w6ac2HIL-39">
+          <mxGeometry y="7" width="38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-41" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="78" y="140" width="195" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=16;rotation=90;" vertex="1" parent="iZV24EI_f0F_w6ac2HIL-41">
+          <mxGeometry x="66.5" y="-23.5" width="62" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-16" value="Validna klasa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#97D077;" vertex="1" parent="iZV24EI_f0F_w6ac2HIL-41">
+          <mxGeometry x="67.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="273.5" y="139" width="195" height="105.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=16;rotation=90;" vertex="1" parent="iZV24EI_f0F_w6ac2HIL-42">
+          <mxGeometry x="66.5" y="-23" width="62" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-18" value="Nevalidna klasa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FF0000;" vertex="1" parent="iZV24EI_f0F_w6ac2HIL-42">
+          <mxGeometry x="66.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-43" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-117" y="140" width="196" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=16;rotation=90;" vertex="1" parent="iZV24EI_f0F_w6ac2HIL-43">
+          <mxGeometry x="67" y="-24" width="62" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="iZV24EI_f0F_w6ac2HIL-17" value="Nevalidna klasa" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;strokeColor=none;fontColor=#FF0000;" vertex="1" parent="iZV24EI_f0F_w6ac2HIL-43">
+          <mxGeometry x="68" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
