@@ -69,7 +69,7 @@ if (a > b) {                                              // L1; O1
   &nbsp; &nbsp; &nbsp; Obuhvata linije {L1, L2, L3, L4, L6, L7, L8, L9} i grane {O1-true, O2-true, O3-true, <b>O4-false</b>} <br>
 
   TP1 test je iskorišćen u obe tehnike. Kod prve pokriva sve statement-e, a kod druge sve true grane. 
-  **TP2-TP5 pokrivaju else grane iako ne postoje** jer Decision Coverage-a zahteva njihovo pokrivanje.
+  <b>TP2-TP5 pokrivaju else grane iako ne postoje</b> jer Decision Coverage-a zahteva njihovo pokrivanje.
 
 </details> 
 
