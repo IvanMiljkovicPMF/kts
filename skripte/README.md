@@ -1,3 +1,6 @@
 - Prvi termin (TODO)
 - [Drugi termin: BDD, Equivalence Class Partitioning, Cucumber](./02.md)
 - [Treći termin: Boundary Value Analysis](./03.md)
+- [Četvrti termin: Cause-Effect Graph](./04.md) (TODO)
+- [Peti termin: Coverage - Control Flow](./05.md) (TODO)
+- [Šesti termin: Coverage - Paths](./06.md) (TODO)
