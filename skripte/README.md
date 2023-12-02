@@ -4,3 +4,4 @@
 - [Četvrti termin: Cause-Effect Graph](./04.md) (**IN PROGRESS**)
 - [Peti termin: Coverage - Control Flow](./05.md) (**IN PROGRESS**)
 - [Šesti termin: Coverage - Paths](./06.md) (**IN PROGRESS**)
+- [Sedmi termin: JUnit API 5](./07.md) (**IN PROGRESS**)
