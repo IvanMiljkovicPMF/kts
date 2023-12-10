@@ -38,9 +38,24 @@ Sadržaj:
 > Ako Decision Coverage obuhvata Condition Coverage, zašto onda postoje 2 tehnike, a ne jedna?
 [Dodaj odgovor!](https://github.com/imioer/kts/edit/main/pitanja_i_odgovori.md)
 
-> Da li se u Condition Coverage-u radi određuju kombinacije za svaku moguću vrednost uslova
+> Da li se u Condition Coverage-u radi određuju kombinacije za svaku moguću vrednost uslova?
 [Dodaj odgovor!](https://github.com/imioer/kts/edit/main/pitanja_i_odgovori.md)
 
+#### Paths
+
+##### LCSAJ
+
+
+> Da li dolazi do skoka kod `if-else` i ako dolazi, kako se skace u oba slucaja (kako za `then`, a kako `else` granu)?
+> ```
+> 1. System.out.println("a");
+> 2. if(x == false)
+> 3.    System.out.println("b");
+> 4. else 
+> 5.    System.out.println("c");
+> 6. System.out.println("d");
+> ```
+> [Dodaj odgovor!](https://github.com/imioer/kts/edit/main/pitanja_i_odgovori.md)
 
 <!-- <details>
   <summary>
