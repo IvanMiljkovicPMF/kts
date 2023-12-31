@@ -15,6 +15,7 @@ Sadržaj:
   - [Cause-effect graph](#cause-effect-graph)
 - [White box](#white-box)
   - [Coverage](#coverage)
+- [Selenium](#selenium)
 
 ## TDD
 
@@ -56,6 +57,13 @@ Sadržaj:
 > 6. System.out.println("d");
 > ```
 > [Dodaj odgovor!](https://github.com/imioer/kts/edit/main/pitanja_i_odgovori.md)
+
+
+## Selenium
+
+> Zašto pravimo testove na osnovu trenutnog stanja sajta?
+[Dodaj odgovor!](https://github.com/imioer/kts/edit/main/pitanja_i_odgovori.md)
+
 
 <!-- <details>
   <summary>
