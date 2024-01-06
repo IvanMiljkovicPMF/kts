@@ -84,30 +84,16 @@ Kada iscrpimo sve mogućnosti za sekvence koje počinju sa jednom od tih vrednos
 | e04           | Izostavljena sekvenca za `true` odluku | Pronađu se sekvence s01, s02, ali ne i sekvence u kojima je `j < words.size()` ispunjeno | Uzeti u obzir situaciju kada je `j < words.size()` ispunjeno. Tada možemo ući u telo petlje koje sadrži `if`. On može imati skok ukoliko njegov uslvo nije ispunjen pa imamo 2 moguće sekvence: jednu u kojoj dolazi do tog skoka i drugu u kojoj ne dolazi do njega, tj. s03 i s04 | 
 | e05           | Nisu identifikovane sekvence koje se nastavljaju na neki skok | Identifikovali smo sekvencu s02, tj. (1, 9, 14), ali nismo identifikovali sekvence koje nastavljaju na ovu sekvencu, počevši od 14. linije | Tamo gde jedna linearna sekvenca treba da skoči, druga počinje. Tačnije, mi skačemo sa jedne na drugu. Ako trebamo da skočimo dalje na 14. liniju, to onda znači da ćemo imati barem jednu sekvencu koja će početi od ove linije. Primer sekvenci koje možemo identifikovati: s06, s07 | 
 | e06           | Linearna sekvenca je nemoguća jer sadrži skok | Sekvenca (5, 15, 19) nije moguća jer nije reč o linearnoj sekvenci | Da bismo došli do 15. linije, potrebno je da prođemo `for`, a on sadrži uvek skok: skok koji zaobilazi telo petlje (kada je uslov `false`) i skok kojim se nakon izvršenog tela petlje vraćamo na proveru uslova (kada je uslov `true`). To znači da nikada ne bismo imali linearnu sekvencu do 15. linije | 
-| e07           | Nije identifikovana sekvenca čija početna linija sadrži odluku | Neka je identifikovana sekvenca s16, tj. (5, 13, 9). To znači da treba da se nastavi na sekvencu koja počinje sa 9. linijom. Jedna od takvih sekvenci je sekvenca s09, tj. (9, 9, 14). U toj sekvenci izvršavamo 9. liniju, ali pošto uslov `j < words.size()` nije ispunjen, dolazi do skoka na 14. liniju  | Obratiti pažnju kod ovakvih slučajeva. Ukoliko se kreće od linije koja sadrži odluku, uvek ćemo imati sekvencu dužine 1 (slučaj kada se taj iskaz odluke evaluira na `false` ).
-| e08           | Nije identifikovana sekvenca koja počinje i završava se sa krajem petlje | Sekvenca s08, tj (13, 13, 9) je sekvenca u kojoj nemamo nikakav konkretan kod. Sadrži samo `}` koje predstavlja kraj scope-a tela petlje i nakon njegovog izvršavanje potrebno je izvršiti skok nazad na početak petlje.  | Ove sekvence se najčešće javljaju kada sledeća linija nakon izlaska iz nekog bloka skokom predstavlja liniju kojom se završava petlja. Tada je početak ujedno i kraj, a onda se vrši skok na početak petlje kako bi se proverio uslov.
-| e09           | Nevalidno definisanje skoka za izlazak iz metode | Sekvence (20, 24, 24) ili (20, 23, 24) nisu validne jer tada nije potrebno da se izvršenje vrati na 24. liniju, koja je deo tela metode, već da se preusmeri pozivaocu date metode. Dolazi do izlaska iz metode. | Ukoliko imamo skok iz metode, kao što je `return` ili dolazak do kraja tela te metode (`}`), taj skok obeležavamo sa `-1` ili `END`. Sekvenca se završava skokom | 
-| e10           |  |  |  | 
-| e11           |  |  |  | 
-| e12           |  |  |  | 
-| e13           |  |  |  | 
-| e14           |  |  |  | 
-| e15           |  |  |  | 
-| e16           |  |  |  | 
-| e17           |  |  |  | 
-| e18           |  |  |  | 
-| e19           |  |  |  | 
-| e20           |  |  |  | 
-| e21           |  |  |  | 
-| e22           |  |  |  | 
-| e23           |  |  |  | 
-| e24           |  |  |  | 
-| e25           |  |  |  | 
-| e26           |  |  |  | 
-| e27           |  |  |  | 
-| e28           |  |  |  | 
-| e29           |  |  |  | 
-| e30           |  |  |  | 
+| e07           | Nije identifikovana sekvenca čija početna linija sadrži odluku | Neka je identifikovana sekvenca s16, tj. (5, 13, 9). To znači da treba da se nastavi na sekvencu koja počinje sa 9. linijom. Jedna od takvih sekvenci je sekvenca s09, tj. (9, 9, 14). U toj sekvenci izvršavamo 9. liniju, ali pošto uslov `j < words.size()` nije ispunjen, dolazi do skoka na 14. liniju  | Obratiti pažnju kod ovakvih slučajeva. Ukoliko se kreće od linije koja sadrži odluku, uvek ćemo imati sekvencu dužine 1 (slučaj kada se taj iskaz odluke evaluira na `false` )
+| e08           | Nije identifikovana sekvenca koja počinje i završava se sa krajem petlje | Sekvenca s08, tj. (13, 13, 9) je sekvenca u kojoj nemamo nikakav konkretan kod. Sadrži samo `}` koje predstavlja kraj scope-a tela petlje i nakon njegovog izvršavanje potrebno je izvršiti skok nazad na početak petlje.  | Ove sekvence se najčešće javljaju kada sledeća linija nakon izlaska iz nekog bloka skokom predstavlja liniju kojom se završava petlja. Tada je početak ujedno i kraj, a onda se vrši skok na početak petlje kako bi se proverio uslov
+| e09           | Nevalidno definisanje skoka za izlazak iz metode | Sekvence (20, 24, 24) ili (20, 23, 24) nisu validne jer tada nije potrebno da se izvršenje vrati na 24. liniju, koja je deo tela metode, već da se preusmeri pozivaocu date metode. Dolazi do izlaska iz metode | Ukoliko imamo skok iz metode, kao što je `return` ili dolazak do kraja tela te metode (`}`), taj skok obeležavamo sa `-1`, `END` ili `kraj`. Sekvenca se završava skokom | 
+| e10           | Skok na pogrešan deo koda | Vrši se skok na deo koda koji nije u blizini odgovarajuće linije na koju treba skočiti. Na primer, sekvenca od 1 do 13 se greškom skoči na 5. liniju umesto na 9. liniju pošto se dati skok odnosi na unutrašnju petlju. | Ovakve greške se najčešće javljaju slučajno kada pomešamo kontekste / scope u žurbi. Zbog toga ovakve situacije u kojima imamo neke skokove na neke ranije linije treba pažljivo analizirati. Praćenje linije koju crta IDE između početka i kraja bloka može da nam olakša ovakve situacije | 
+| e11           | Izostavljena sekvenca za `false` odluku |  |  | 
+| e12           | Sekvenca se završava na pogrešnoj liniji | (1, 9, 13) umesto (1, 10, 13) |  | 
+| e13           | Više sekvenci koje se razlikuju samo po skoku | (1. 9, 13) i (1. 9, 15) |  | 
+| e14           | Skok je linija nakon kraja sekvence (ne odnosi se na GOTO) |  |  | 
+| e15           | Nije definisana sekvenca, tj. trojka `(početak, kraj, skok)` |  |  | 
+
 
 ### Dve ili više tehnike
 
