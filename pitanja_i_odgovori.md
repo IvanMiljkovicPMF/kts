@@ -59,6 +59,8 @@ Sadržaj:
 > [Dodaj odgovor!](https://github.com/imioer/kts/edit/main/pitanja_i_odgovori.md)
 
 
+> Da li se poziv funkcije smatra skokom? [Dodaj odgovor!](https://github.com/imioer/kts/edit/main/pitanja_i_odgovori.md)
+
 ## Selenium
 
 > Zašto pravimo testove na osnovu trenutnog stanja sajta?
