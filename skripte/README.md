@@ -9,4 +9,5 @@
 
 ---
 
+- [WAMP](./wamp.md)
 - [Beleške (2022-2023): JUnit 4, Mockito, TestNG, Selenium, Hamcrast](https://github.com/studnetwork/PMFKG/tree/master/IV%20godina/Zimski%20semestar/KTS/Bele%C5%A1ke/Sa%20vezbi/Srdjan_87-19)
