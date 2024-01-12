@@ -5,11 +5,13 @@
    * Instalacija zavisnosti (Visual C++) ukoliko nisu instalirane. Mogu se naći na [WAMP-ovoj stranica za fajlove][deps - main] 
    ili [kao upakovana celnia koja sadrži sve neophodne zavisnosti na jednom mestu][deps - VisualCppRedist AIO]
 3. Dodavanje sajta u `www` folder: `c:\wamp\www` (nije uvek ovde, zavisi od verzije i podešavanja)
-4. Posećivanje phpMyAdmin-a na adresi: http://localhost/phpmyadmin
+4. Posećivanje phpMyAdmin-a na adresi: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+   * ako ne postoji, proveriti port
 5. Prijava phpMyAdmin
    * username: `root`
    * password:  prazno polje (blank)
 6. Import baze preko phpMyAdmin-a
+7. Posećivanje stranice
 
 ---
 
