@@ -6,6 +6,7 @@
 - [JUnit API 5](./07.md) (**IN PROGRESS**)
 - [TestNG & Selenium](./10.md)
 - [POM & PageFactory](./11.md)
+- [SonarQube](./12.md)
 
 ---
 
